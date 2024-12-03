@@ -1,0 +1,107 @@
+[
+  {
+    "name": "CPP",
+    "image": "/techicons/CPP.svg",
+    "description": "C with classes"
+  },
+  {
+    "name": "JavaScript",
+    "image": "/techicons/JavaScript.svg",
+    "description": "Web language"
+  },
+  {
+    "name": "Python",
+    "image": "/techicons/Python-Dark.svg",
+    "description": "data analysis & automation"
+  },
+  {
+    "name": "TypeScript",
+    "image": "/techicons/TypeScript.svg",
+    "description": "Strongly Typed JavaScript"
+  },
+  {
+    "name": "Bash",
+    "image": "/techicons/Bash-Dark.svg",
+    "description": "shell scripting & CLI"
+  },
+  {
+    "name": "Sass",
+    "image": "/techicons/Sass.svg",
+    "description": "css on steroids"
+  },
+  {
+    "name": "React",
+    "image": "/techicons/React-Dark.svg",
+    "description": "JS library for UI"
+  },
+  {
+    "name": "EJS",
+    "image": "/techicons/ejs.svg",
+    "description": "embedded js template"
+  },
+  {
+    "name": "Remix",
+    "image": "/techicons/Remix-Dark.svg",
+    "description": "server-side rendered react"
+  },
+  {
+    "name": "TailwindCSS",
+    "image": "/techicons/TailwindCSS-Dark.svg",
+    "description": "utility-first CSS framework"
+  },
+  {
+    "name": "Redux",
+    "image": "/techicons/Redux.svg",
+    "description": "state management tool"
+  },
+  {
+    "name": "Zustand",
+    "image": "/techicons/zustand.svg",
+    "description": "state management tool"
+  },
+  {
+    "name": "Node.js",
+    "image": "/techicons/NodeJS-Dark.svg",
+    "description": "runtime for executing JS"
+  },
+  {
+    "name": "Express.js",
+    "image": "/techicons/ExpressJS-Dark.svg",
+    "description": "web server framework"
+  },
+  {
+    "name": "Postman",
+    "image": "/techicons/Postman.svg",
+    "description": "API dev & testing."
+  },
+  {
+    "name": "MongoDB",
+    "image": "/techicons/MongoDB.svg",
+    "description": "NoSQL database"
+  },
+  {
+    "name": "MySQL",
+    "image": "/techicons/MySQL-Dark.svg",
+    "description": "relational DBMS."
+  },
+  {
+    "name": "Docker",
+    "image": "/techicons/Docker.svg",
+    "description": "Containerization Platform"
+  },
+  {
+    "name": "Git",
+    "image": "/techicons/Git.svg",
+    "description": "version control system"
+  },
+  {
+    "name": "GitHub",
+    "image": "/techicons/Github-Dark.svg",
+    "description": "hosting & collaboration"
+  },
+  {
+    "name": "Figma",
+    "image": "/techicons/Figma-Dark.svg",
+    "description": "UI/UX design."
+  }
+]

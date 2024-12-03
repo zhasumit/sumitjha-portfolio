@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Leetcode",
+        "url": "https://leetcode.com/u/sumitzha/",
+        "icon": "/socialicons/leetcode.svg",
+        "title": "Leetcode"
+    },
+    {
+        "name": "GitHub",
+        "url": "https://github.com/zhasumit/",
+        "icon": "/socialicons/github.svg",
+        "title": "GitHub"
+    },
+    {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/sumitzha/",
+        "icon": "/socialicons/linkedin.svg",
+        "title": "LinkedIn"
+    },
+    {
+        "name": "Email",
+        "url": "mailto:sumitjha2057@gmail.com",
+        "icon": "/socialicons/mail.svg",
+        "title": "Email"
+    },
+    {
+        "name": "Twitter",
+        "url": "https://x.com/Sumit_JhaG",
+        "icon": "/socialicons/twitter.svg",
+        "title": "Twitter/X"
+    },
+    {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/sumitk.jha/",
+        "icon": "/socialicons/insta.svg",
+        "title": "Instagram"
+    },
+    {
+        "name": "WhatsApp",
+        "url": "https://Wa.me/+917294043415",
+        "icon": "/socialicons/whatsapp.svg",
+        "title": "WhatsApp"
+    }
+]
