@@ -13,7 +13,7 @@ const TechStack = () => {
         <div className="mt-8 mb-20 p-4 lg:p-0">
             <Title first="Tech" second="Arsenal" />
             <br />
-            <div className="grid grid-cols-2 sm:grid-cols-3">
+            <div className="grid grid-cols-2 sm:grid-cols-3  text-neutral-100">
                 {skills.map((skill, index) => (
                     <div
                         key={index}

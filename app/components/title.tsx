@@ -7,7 +7,7 @@ interface TitleProps {
 
 const Title: React.FC<TitleProps> = ({ first, second }) => {
     return (
-        <div className="uppercase text-[3.5em] sm:text-[5em] md:text-[6em] font-semibold font-poppins leading-none poppinsfont">
+        <div className="uppercase text-[3.5em] sm:text-[5em] md:text-[6em] font-semibold font-poppins leading-none poppinsfont text-neutral-100">
             {first}{" "}
             <span className="lighterpoppins inline-block">
                 <BubbleText word={second} />

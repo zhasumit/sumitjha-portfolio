@@ -53,7 +53,7 @@ const Banner: React.FC = () => {
                     <div className="text-neutral-400 font-light">
                         Passionate developer with a knack for creating dynamic applications, that provide exceptional user experiences. Exploring technologies, and engaging in adventures.
                     </div>
-                    <div className="mt-5 flex gap-8">
+                    <div className="mt-5 flex gap-8  text-neutral-100">
                         {/* <div>
                             <span className="font-semibold text-3xl md:text-4xl lg:text-5xl">
                                 +{experience.value}

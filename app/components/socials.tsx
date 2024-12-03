@@ -53,7 +53,7 @@ const Socials: React.FC = () => {
                     onMouseEnter={() => setHoveredIndex(index)}
                     onMouseMove={(e) => handleMouseMove(e, index)}
                     onMouseLeave={() => handleMouseLeave(index)}
-                    className={`group relative flex flex-col items-center p-2 py-8 transition-all duration-250 bg-neutral-900/50 hover:bg-neutral-700 hover:z-10 rounded-md `}
+                    className={`group relative flex flex-col items-center p-2 py-8 transition-all duration-250 bg-neutral-900/50 hover:bg-neutral-700 hover:z-10 rounded-md text-neutral-100`}
                     title={social.title}
                 >
                     <img

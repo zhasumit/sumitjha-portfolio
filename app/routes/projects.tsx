@@ -58,7 +58,7 @@ const Projects: React.FC = () => {
                             </div>
 
                             {/* Project Details */}
-                            <div className="projectDetails flex flex-col justify-between w-full">
+                            <div className="projectDetails flex flex-col justify-between w-full text-neutral-100">
                                 <div className="projectHeading flex items-center justify-between">
                                     <h3 className="font-semibold text-2xl md:text-3xl">{project.name}</h3>
                                     <div className="flex gap-6">

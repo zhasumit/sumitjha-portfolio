@@ -20,7 +20,7 @@ body {
 }
 
 .lighterpoppins {
-  color: #353334;
+  @apply text-neutral-600;
 }
 
 p {
