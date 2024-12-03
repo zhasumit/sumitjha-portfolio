@@ -51,7 +51,7 @@ const Banner: React.FC = () => {
                 <div className="text-center md:text-left">
                     <Title first="software" second="developer" />
                     <div className="text-neutral-400 font-light">
-                        Passionate developer with a knack for creating dynamic web applications, for engaging user experiences.Exploring technologies, and engaging in adventures.
+                        Passionate developer with a knack for creating dynamic applications, that provide exceptional user experiences. Exploring technologies, and engaging in adventures.
                     </div>
                     <div className="mt-5 flex gap-8">
                         {/* <div>
@@ -63,7 +63,15 @@ const Banner: React.FC = () => {
                             </div>
                         </div> */}
                         <div>
-                            <span className="font-semibold text-3xl md:text-4xl lg:text-5xl">+10</span>
+                            <span className="font-semibold text-3xl md:text-4xl lg:text-5xl">
+                                Fresher
+                            </span>
+                            <div className="text-neutral-500 text-sm tracking-tighter leading-tight uppercase">
+                                <div>NIT Allahbad<br />24' undergrad</div>
+                            </div>
+                        </div>
+                        <div>
+                            <span className="font-semibold text-3xl md:text-4xl lg:text-5xl">5+</span>
                             <div className="text-neutral-500 text-sm tracking-tighter leading-tight uppercase">
                                 <div>Projects<br /> Completed</div>
                             </div>
