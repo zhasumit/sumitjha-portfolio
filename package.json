@@ -1,5 +1,7 @@
 {
-  "name": "01-basics",
+ "name": "sumitjha-portfolio",
+  "version": "2.1.2", 
+  "author": "Sumit Kumar Jha", 
   "private": true,
   "sideEffects": false,
   "type": "module",

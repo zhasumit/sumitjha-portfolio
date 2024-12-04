@@ -42,7 +42,7 @@ const Socials: React.FC = () => {
     return (
         <div
             ref={containerRef}
-            className="grid grid-cols-3 sm:grid-cols-4 px-10 gap-2 mb-24 md:mb-16"
+            className="grid grid-cols-3 sm:grid-cols-4 px-10 gap-1 mb-24 md:mb-16"
         >
             {socials.map((social: Social, index) => (
                 <a
@@ -61,7 +61,6 @@ const Socials: React.FC = () => {
                         alt={social.name}
                         className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 object-contain"
                     />
-
                     <div className="absolute top-2 right-2 sm:right-5 md:right-6 font-black text-2xl sm:text-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         ↗
                     </div>

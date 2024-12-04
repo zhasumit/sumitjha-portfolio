@@ -35,7 +35,7 @@ const Banner: React.FC = () => {
 
     return (
         <>
-            <div className="flex flex-col md:flex-row gap-10 items-center px-4 lg:px-0 mt-20 md:mt-8  mb:mt-8 mb-24 md:mb-8 ">
+            <div className="flex flex-col md:flex-row gap-10 items-center px-4 lg:px-0 mt-32 md:mt-16 lg:mt-8 mb-24 md:mb-4 ">
                 <div>
                     <img
                         src={sumit}
@@ -53,7 +53,7 @@ const Banner: React.FC = () => {
                     <div className="text-neutral-400 font-light">
                         Passionate developer with a knack for creating dynamic applications, that provide exceptional user experiences. Exploring technologies, and engaging in adventures.
                     </div>
-                    <div className="mt-5 flex gap-8  text-neutral-100">
+                    <div className="mt-12 sm:mt-10 md:mt-2 flex gap-8 text-neutral-100">
                         {/* <div>
                             <span className="font-semibold text-3xl md:text-4xl lg:text-5xl">
                                 +{experience.value}
@@ -63,16 +63,16 @@ const Banner: React.FC = () => {
                             </div>
                         </div> */}
                         <div>
-                            <span className="font-semibold text-3xl md:text-4xl lg:text-5xl">
+                            <span className="font-semibold text-2xl md:text-3xl lg:text-4xl">
                                 Fresher
                             </span>
-                            <div className="text-neutral-500 text-sm tracking-tighter leading-tight uppercase">
+                            <div className="text-neutral-500 text-xs tracking-tighter leading-tight uppercase">
                                 <div>NIT Allahbad<br />24' undergrad</div>
                             </div>
                         </div>
                         <div>
-                            <span className="font-semibold text-3xl md:text-4xl lg:text-5xl">5+</span>
-                            <div className="text-neutral-500 text-sm tracking-tighter leading-tight uppercase">
+                            <span className="font-semibold text-2xl md:text-3xl lg:text-4xl">5+</span>
+                            <div className="text-neutral-500 text-xs tracking-tighter leading-tight uppercase">
                                 <div>Projects<br /> Completed</div>
                             </div>
                         </div>
