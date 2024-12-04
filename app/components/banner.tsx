@@ -35,8 +35,8 @@ const Banner: React.FC = () => {
 
     return (
         <>
-            <div className="flex flex-col md:flex-row gap-10 items-center px-4 lg:px-0 mt-32 md:mt-16 lg:mt-8 mb-24 md:mb-4 ">
-                <div>
+            <div className="flex flex-col md:flex-row gap-10 items-center">
+                <div className="mt-10 md:mt-1">
                     <img
                         src={sumit}
                         className="rounded-full font-bold p-1 bg-white -mt-8 w-64 md:w-96"
@@ -48,12 +48,12 @@ const Banner: React.FC = () => {
                         alt="Long Icon"
                     />
                 </div>
-                <div className="text-center md:text-left">
+                <div className="text-center md:text-left -mt-5 md:mt-0">
                     <Title first="software" second="developer" />
                     <div className="text-neutral-400 font-light">
                         Passionate developer with a knack for creating dynamic applications, that provide exceptional user experiences. Exploring technologies, and engaging in adventures.
                     </div>
-                    <div className="mt-12 sm:mt-10 md:mt-2 flex gap-8 text-neutral-100">
+                    <div className="mt-3 sm:mt-2 md:mt-2 flex gap-8 text-neutral-100">
                         {/* <div>
                             <span className="font-semibold text-3xl md:text-4xl lg:text-5xl">
                                 +{experience.value}
@@ -79,7 +79,6 @@ const Banner: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <div></div>
         </>
     );
 };

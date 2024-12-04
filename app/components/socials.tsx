@@ -42,7 +42,7 @@ const Socials: React.FC = () => {
     return (
         <div
             ref={containerRef}
-            className="grid grid-cols-3 sm:grid-cols-4 px-10 gap-1 mb-24 md:mb-16"
+            className="grid grid-cols-3 sm:grid-cols-4 px-10 gap-1 mt-20 md:mt-16 mb-24 md:mb-16 md:mt-4"
         >
             {socials.map((social: Social, index) => (
                 <a

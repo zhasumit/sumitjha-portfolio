@@ -31,7 +31,7 @@ const About: React.FC = () => {
     const [isHoveredInstagram, setIsHoveredInstagram] = useState(false);
 
     return (
-        <div className="mt-8 mb-20 lg:mb-24 font-light text-gray-200 tracking-tight leading-relaxed text-lg p-4 lg:p-0">
+        <div className="font-light text-gray-200 tracking-tight leading-relaxed text-base md:text-lg md:mb-20">
             <Title first="User" second="Manual" />
 
             <div className='flex items-center gap-2'>

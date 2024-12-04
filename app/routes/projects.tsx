@@ -41,7 +41,7 @@ const Projects: React.FC = () => {
     ];
 
     return (
-        <div className="mt-12 md:mt-8 mb-24 md:mb-28 px-4 lg:px-0">
+        <div className="md:mb-28">
             {combinedProjects.map((section, sectionIndex) => (
                 <div key={sectionIndex}>
                     <Title first={section.category.split(' ')[0]} second={section.category.split(' ')[1]} />

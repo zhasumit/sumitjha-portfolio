@@ -10,7 +10,7 @@ export const meta: MetaFunction = () => {
 
 const TechStack = () => {
     return (
-        <div className="mt-8 mb-20 p-4 lg:p-0">
+        <div className='md:mb-20'>
             <Title first="Tech" second="Arsenal" />
             <br />
             <div className="grid grid-cols-2 sm:grid-cols-3  text-neutral-100">

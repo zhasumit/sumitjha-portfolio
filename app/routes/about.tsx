@@ -27,7 +27,7 @@ const About: React.FC = () => {
 
 
     return (
-        <div className="mt-10 mb-20 md:mb-24 font-light text-gray-200 tracking-tight leading-relaxed text-lg p-4 lg:p-0">
+        <div className="font-light text-gray-200 tracking-tight leading-relaxed text-lg md:mb-24">
             <Title first="About" second="Me" />
             <SmallerTitle heading="Hey, I'm Sumit 👋🏼" />
             <p>

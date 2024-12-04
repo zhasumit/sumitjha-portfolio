@@ -43,10 +43,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <>
+  return <div className="mt-12 mb-20 md:mt-8 md:mb-16 px-4 lg:px-0">
     <div className="max-w-screen-md m-auto">
       <Outlet />
     </div>
     <Nav />
-  </>;
+  </div>;
 }
