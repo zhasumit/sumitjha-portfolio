@@ -25,6 +25,12 @@
     },
     {
         "name": "Twitter",
+        "url": "https://join.skype.com/invite/xRocqJTd9Jfw",
+        "icon": "/socialicons/skype.svg",
+        "title": "skype"
+    },
+    {
+        "name": "Twitter",
         "url": "https://x.com/Sumit_JhaG",
         "icon": "/socialicons/twitter.svg",
         "title": "Twitter/X"
