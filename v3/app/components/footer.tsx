@@ -59,8 +59,6 @@ const Footer = () => {
                     </a>
                 </p>
             </div>
-
-
             <div className='text-purple-400 mono text-md'>
                 Built with <span className='line-through decoration-red-500'>love</span> insanity during boredom for OCD.
             </div>

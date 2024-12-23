@@ -1,0 +1,502 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap");
+/* --text-color: #dde1e7; */
+:root {
+    --base-color: white;
+    --base-variant: #e8e9ed;
+    --text-color: #111528;
+    --secondary-text: #232728;
+    --secondary-color: #cbd6e6;
+    --accent-color: #4c9cff;
+    --accent-bgcolor: #daeaff9a;
+    --link-underline: #c58af9;
+    --link-bgcolor-hover: #363656;
+    --tech-bg-color: #dbdbdb;
+    --highlight: #c58af968;
+    scroll-behavior: smooth;
+}
+
+.darkmode {
+    --base-color: #141414;
+    --base-variant: #0c0f11;
+    --text-color: #ddd4d3;
+    --secondary-text: #c9c9c9;
+    --secondary-color: #394c69;
+    --accent-color: #2e8cff;
+    --accent-bgcolor: #133d7454;
+    --link-underline: #c58af9;
+    --link-bgcolor-hover: #363656;
+    --tech-bg-color: #191d27;
+    --highlight: #8a97f968;
+    scroll-behavior: smooth;
+}
+
+::selection {
+    /* background: #5269d0; */
+    background: var(--text-color);
+    color: var(--base-variant);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter Tight", sans-serif;
+    transition-duration: 500ms;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.75em;
+    color: var(--text-color);
+    line-height: 1.75em;
+    letter-spacing: -0.1px;
+}
+
+body {
+    background-color: var(--base-variant);
+}
+
+.darkerText {
+    color: var(--primary-color);
+}
+
+nav {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+nav a {
+    padding: 0px 8px;
+}
+
+nav a:hover,
+nav a:focus {
+    border-bottom: 5px solid var(--link-underline);
+}
+
+h1 {
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+    margin-top: 1.3em;
+    color: var(--text-color);
+}
+
+header > a {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 1em;
+    border: none;
+}
+
+header > a:hover {
+    border: none;
+}
+h3 {
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+header,
+main,
+footer {
+    max-width: 700px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+p {
+    font-size: 1.05em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    padding: 10px 0;
+}
+
+.long-icon {
+    height: 45px;
+}
+
+a {
+    font-size: large;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 2px solid var(--link-underline);
+    color: inherit;
+    text-underline-offset: var(--offset, 0.2em);
+    transition: all 100ms;
+    padding-bottom: 1px;
+}
+
+a:hover {
+    border-bottom: 4px solid var(--link-underline);
+}
+section {
+    margin-bottom: 6em;
+}
+
+.icon {
+    height: 1em;
+}
+
+li {
+    list-style: none;
+}
+
+.large {
+    font-weight: 500;
+    font-size: 1.23em;
+    margin-right: 0.2em;
+    padding: 2px 0px;
+    background: linear-gradient(
+        to bottom,
+        var(--base-variant) 65%,
+        var(--highlight) 0%
+    );
+}
+
+.quote {
+    border-left: 8px solid var(--accent-color);
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin-bottom: 0.5em;
+    background-color: var(--accent-bgcolor);
+}
+
+.quoteright {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    font-size: 0.85em;
+}
+
+.theme-switch {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    border-radius: 50%;
+    z-index: 99;
+    border: none;
+    background-color: var(--base-color);
+    padding: 0.1em 0.27em;
+    font-size: 1.5em;
+}
+
+.theme-switch span:last-child {
+    display: none;
+}
+
+.darkmode .theme-switch span:first-child {
+    display: none;
+}
+
+.darkmode .theme-switch span:last-child {
+    display: block;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all 200ms;
+    font-weight: 600;
+    color: var(--text-color);
+    background-color: var(--base-variant);
+    font-size: 1.7em;
+}
+
+#myBtn:hover {
+    background-color: var(--base-color);
+}
+
+.info {
+    margin-top: 4em;
+    display: flex;
+    height: 200px;
+}
+
+.profileImage img {
+    height: 100%;
+    border-radius: 50%;
+    padding: 3px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+}
+
+.introSection {
+    font-size: 2em;
+    padding-left: 30px;
+    line-height: 1.3em;
+    width: 70%;
+    display: inline-block;
+    align-items: center;
+}
+
+.introSection a {
+    font-size: inherit;
+}
+
+.socials {
+    margin-top: 20px;
+    display: flex;
+    gap: 4px;
+    justify-content: flex-end;
+    font-size: 0.7em;
+}
+
+.socials a {
+    border: none;
+    color: var(--secondary-text);
+    text-decoration: none;
+    transition: all 100ms;
+}
+
+.socials img {
+    height: 1.7em;
+}
+
+.tech img {
+    height: 3em;
+    margin: 0.09em 0.1em;
+}
+
+.tech img:hover {
+    position: relative;
+    top: -5px;
+}
+
+.tech p {
+    text-align: center;
+}
+
+.project {
+    min-height: 150px;
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.projectImage {
+    width: 33%;
+    display: flex;
+    align-items: center;
+}
+
+.projectImage img {
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    height: 100%;
+    overflow: hidden;
+}
+
+.projectDetails {
+    padding-left: 1em;
+}
+
+.projectDetails p {
+    line-height: 1.3em;
+}
+
+.projectDetails h3 {
+    text-transform: uppercase;
+}
+
+.techstack {
+    margin-top: 10px;
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.7em;
+}
+
+.techstack div {
+    border: none;
+    text-decoration: none;
+    transition: all 100ms;
+    background-color: var(--tech-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.4em;
+    gap: 2px;
+    border-radius: 0.4em;
+}
+
+.techstack img {
+    height: 1.2em;
+}
+
+.projectHeading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.projectHeading a {
+    border: 0.1px solid;
+    font-size: 0.95em;
+    background-color: var(--tech-bg-color);
+    padding: 0 7px;
+    border-radius: 3px;
+    box-shadow: -2px 2px;
+}
+
+.projectHeading h3 {
+    font-weight: 500;
+    font-size: 1.23em;
+    margin-right: 0.2em;
+    margin-bottom: .2em;
+    padding: 0px 3px;
+    background: linear-gradient(
+        to bottom,
+        var(--base-variant) 60%,
+        var(--highlight) 0%
+    );
+}
+
+.projectHeading > a:hover {
+    background-color: var(--secondary-color);
+}
+
+.projectHeading > a:active {
+    position: relative;
+    bottom: -2px;
+    left: -2px;
+    box-shadow: none;
+}
+
+.space {
+    margin: 5em 0;
+}
+
+@media (max-width: 900px) {
+    #myBtn {
+        bottom: 20px;
+        right: 20px;
+        font-size: 1.2em;
+        padding: 5px 13px;
+    }
+
+    #myBtn > img {
+        height: 30px;
+    }
+
+    .theme-switch {
+        top: 30px;
+        right: 20px;
+        padding: 0.05em 0.15em;
+        font-size: 1.2em;
+    }
+
+    header,
+    main,
+    footer {
+        max-width: 85%;
+    }
+
+    .tech img {
+        height: 2.5em;
+        margin: 0.09em 0.1em;
+    }
+
+    .tech img:hover {
+        position: relative;
+        top: -5px;
+    }
+
+    .info {
+        height: 23em;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2em;
+    }
+
+    .profileImage img {
+        height: 200px;
+    }
+
+    .introSection {
+        font-size: 1.8em;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .project {
+        flex-direction: column;
+    }
+
+    .projectDetails {
+        padding-left: 0;
+    }
+
+    .projectImage {
+        width: 50%;
+        margin-bottom: 0.3em;
+    }
+
+    .projectImage img {
+        border-radius: 0.3em;
+    }
+}
+
+@media (max-width: 500px) {
+    .info {
+        height: 21em;
+    }
+    #myBtn {
+        bottom: 10px;
+        right: 15px;
+    }
+
+    #myBtn > img {
+        height: 25px;
+    }
+
+    header,
+    main,
+    footer {
+        max-width: 90%;
+    }
+
+    .theme-switch {
+        top: 10px;
+        right: 15px;
+        padding: 0.05em 0.15em;
+        font-size: 1.2em;
+    }
+
+    .tech img {
+        height: 2em;
+        margin: 0.04em 0.05em;
+    }
+
+    .tech img:hover {
+        position: relative;
+        top: -5px;
+    }
+
+    .introSection {
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
+
+    .socials img {
+        height: 1.7em;
+    }
+}

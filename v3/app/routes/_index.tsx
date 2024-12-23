@@ -1,5 +1,4 @@
 import type { MetaFunction } from "@remix-run/node";
-import Bento from "~/components/bento";
 import Footer from "~/components/footer";
 import Home from "~/components/home";
 import Projects from "~/components/projects";
@@ -14,13 +13,12 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <>
+    <div className="container">
       <Home />
       <Projects />
-      <Bento />
       <TechStack />
       <Footer />
-    </>
+    </div>
   );
 }
 

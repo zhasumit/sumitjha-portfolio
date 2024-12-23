@@ -1,86 +1,87 @@
-* {
-    box-sizing: border-box;
-}
-
-.grid-container {
-    margin: 50px auto;
-    height: 90vh;
+.bento-grid-container {
     display: grid;
-    grid-auto-columns: 1fr;
-    gap: 10px;
-    grid-template-areas:
-        "one one two five five"
-        "one one three five five"
-        "four four four five five";
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
 }
 
-.grid-item {
-    border-radius: 1em;
+.bento-item {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    color: white;
     text-align: center;
-    font-size: 1.2em;
-    padding: 10px;
+    transition: transform 0.3s ease;
 }
 
-.grid-item:nth-child(1) {
-    grid-area: one;
-    background-color: #222e50;
+.bento-item:hover {
+    transform: translateY(-5px);
 }
 
-.grid-item:nth-child(2) {
-    grid-area: two;
-    background-color: #007991;
+.bento-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
 }
 
-.grid-item:nth-child(3) {
-    grid-area: three;
-    background-color: #439a86;
+.bento-images {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
 }
 
-.grid-item:nth-child(4) {
-    grid-area: four;
-    background-color: #f6511d;
-}
-
-.grid-item:nth-child(5) {
-    grid-area: five;
-    background-color: #c1292e;
-}
-
-.bento-image {
+.project-image {
     max-width: 100%;
-    max-height: 100%;
-    border-radius: 0.5em;
+    border-radius: 10px;
 }
 
-@media (max-width: 940px) {
-    .grid-container {
-        grid-template-areas:
-            "one one two five five"
-            "three three three five five"
-            "four four four four four";
-    }
+.bento-techstack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
 }
 
-@media (max-width: 640px) {
-    .grid-container {
-        grid-template-areas:
-            "one one two two two"
-            "three three three five five"
-            "four four four four four";
-    }
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
 }
 
-@media (max-width: 460px) {
-    .grid-container {
-        grid-template-areas:
-            "one"
-            "two"
-            "three"
-            "four"
-            "five";
-    }
+.tech-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.bento-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.bento-link a {
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    border: 1px solid #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bento-link a:hover {
+    background-color: #007bff;
+    color: #ffffff;
 }
