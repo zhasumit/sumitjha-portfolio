@@ -65,6 +65,7 @@ section>p>ul {
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 a:hover {
