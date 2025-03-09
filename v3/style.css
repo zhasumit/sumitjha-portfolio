@@ -6,7 +6,7 @@
 }
 
 html {
-    font-size: 15px; /* Now, 1em = 14px */
+    font-size: 15px;
 }
 
 * {
@@ -29,9 +29,18 @@ body {
     max-width: 850px;
     border: .1em solid #171717;
     min-height: 100vh;
-    margin: 100px auto 130px auto;
+    margin: 100px auto 100px auto;
 }
 
+.saymyname{
+    font-size: 1.7em;
+    font-weight: 700;
+    margin-bottom: .3em;
+}
+
+.saymyname img{
+    border-radius: 100%;
+}
 .grey {
     color: #737373;
     font-weight: 700;
@@ -73,8 +82,22 @@ ul li {
     margin-left: 10px;
     list-style: none;
     line-height: 1.6em;
-    color: #eeeeee;
+    color: #ddddde;
 }
+.bulletpoints {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0; /* Remove default padding */
+  }
+  
+  .bulletpoints li {
+    background: url('images/icons/bulletpoint.gif') no-repeat 0 6px; /* Align bullet to the first line */
+    background-size: 11px 11px;
+    padding-left: 20px; /* Space for the bullet */
+    min-height: 15px; /* Ensures proper spacing */
+    display: flex; 
+    align-items: flex-start; /* Aligns the bullet to the top */
+  }
+  
 
 .codecase {
     background-color: #2b2b2b;
@@ -86,7 +109,6 @@ ul li {
 
 .logo {
     height: 3em;
-    margin: .1em;
 }
 
 .icons {
@@ -233,23 +255,6 @@ ul li {
     border-radius: 3px;
 }
 
-/* Media query for smaller screens */
-@media (max-width: 600px) {
-    .project-card {
-        width: 100%;
-    }
-
-    .aboutmelogo {
-        width: 80px;
-    }
-}
-
-@media (max-width: 500px) {
-    .aboutmelogo {
-        width: 60px;
-    }
-}
-
 .original {
     text-transform: initial;
 }
@@ -264,4 +269,36 @@ ul li {
     margin: 20px auto;
     text-transform: inherit;
     font-weight: 500;
+}
+
+/* Media query for smaller screens */
+
+@media (max-width: 700px) {
+    .logo {
+        height: 2.7em;
+    }
+
+    .techicons {
+        padding: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .project-card {
+        width: 100%;
+    }
+
+    .aboutmelogo {
+        width: 80px;
+    }
+}
+
+@media (max-width: 500px) {
+    .aboutmelogo {
+        width: 60px;
+    }
+
+    .logo {
+        height: 2.4em;
+    }
 }
