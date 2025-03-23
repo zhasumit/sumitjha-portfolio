@@ -92,7 +92,7 @@ ul li {
   
   .bulletpoints li {
     background: url('images/icons/bulletpoint.gif') no-repeat 0 6px; /* Align bullet to the first line */
-    background-size: 11px 11px;
+    background-size: 10px 10px;
     padding-left: 20px; /* Space for the bullet */
     min-height: 15px; /* Ensures proper spacing */
     display: flex; 
