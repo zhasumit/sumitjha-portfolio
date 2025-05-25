@@ -19,6 +19,20 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Giest';
+    src: url('fonts/Geist-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GiestMono';
+    src: url('fonts/GeistMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     font-size: 15px;
 }
@@ -30,12 +44,12 @@ html {
 }
 
 body {
-    font-family: 'CommitMono', sans-serif;
+    font-family: 'Giest', sans-serif;
     color: white;
     background-color: #0c0c0c;
     letter-spacing: -.1px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     word-spacing: 1px;
 }
 
@@ -58,7 +72,8 @@ body {
 
 .grey {
     color: #737373;
-    font-weight: 700;
+    font-weight: 600;
+    font-family: 'GiestMono';
 }
 
 
@@ -69,7 +84,7 @@ body {
 
 section {
     padding: 1.3em;
-    line-height: 3em;
+    line-height: 2em;
     border-bottom: 0px solid #171717;
 }
 
@@ -88,7 +103,7 @@ a:hover {
 
 table {
     margin-top: 15px;
-    line-height: 1.5em;
+    line-height: 1.3em;
     /* Overrides section line-height for table */
 }
 
@@ -96,34 +111,28 @@ ul li {
     text-transform: initial;
     margin-left: 10px;
     list-style: none;
-    line-height: 1.6em;
+    line-height: 1.5em;
     color: #ddddde;
 }
 
 .bulletpoints {
     list-style: none;
-    /* Remove default bullets */
     padding-left: 0;
-    /* Remove default padding */
 }
 
 .bulletpoints li {
     background: url('images/icons/bulletpoint.gif') no-repeat 0 6px;
-    /* Align bullet to the first line */
     background-size: 10px 10px;
     padding-left: 20px;
-    /* Space for the bullet */
     min-height: 15px;
-    /* Ensures proper spacing */
     display: flex;
     align-items: flex-start;
-    /* Aligns the bullet to the top */
 }
 
 
 .codecase {
     background-color: #1e417a;
-    font-family: 'spacemono', 'CommitMono', sans-serif;
+    font-family: 'GiestMono', 'Giest', sans-serif;
     color: #e3f1ff;
     font-weight: 600;
     padding: 0em 0.25em;
@@ -133,7 +142,7 @@ ul li {
 }
 
 .aboutmecodecase {
-    font-family: 'spacemono', 'CommitMono', sans-serif;
+    font-family: 'GiestMono', 'Giest', sans-serif;
     background-color: #1e7a2d;
     color: #e4ffe3;
     font-weight: 600;
@@ -144,14 +153,14 @@ ul li {
 }
 
 .tagscodecase {
-    font-family: 'spacemono', 'CommitMono', sans-serif;
+    font-family: 'GiestMono', 'Giest', sans-serif;
     background-color: #601e7a;
     color: #ffe3ff;
     font-weight: 600;
-    padding: 0em 0.25em;
+    padding: 0em 0.8em;
     border-radius: .33em;
     display: inline-block;
-    margin: .1em -.15em;
+    margin: .1em -.03em;
 }
 
 .logo {
@@ -310,7 +319,7 @@ ul li {
 }
 
 .currentdatetime {
-    font-family: 'spacemono';
+    font-family: 'GiestMono';
     display: flex;
     gap: 10px;
     text-align: center;
