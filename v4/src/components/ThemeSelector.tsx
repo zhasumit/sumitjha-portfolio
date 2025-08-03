@@ -1,5 +1,6 @@
 "use client";
 
+import { LucidePaintbrushVertical } from "lucide-react";
 import { THEMES } from "../constants/themes";
 import { useTheme } from "../hooks/useTheme";
 
@@ -10,9 +11,11 @@ const ThemeSelector = () => {
         <div className="dropdown dropdown-end">
             <button
                 tabIndex={0}
-                className="btn btn-ghost btn-sm hover:bg-base-200"
+                className="text-primary-content"
             >
-                Theme
+                <div tabIndex={0} role="button" className="btn btn-ghost btn-circle bg-primary text-primary-content font-semibold">
+                    <LucidePaintbrushVertical className="h-5 w-5" />
+                </div>
             </button>
             <div
                 tabIndex={0}

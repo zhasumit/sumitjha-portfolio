@@ -26,10 +26,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" type="image/png" href="/icons/sumitjha.png" />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider>
-          <Navbar />
-          {children}
+          <div className="mx-auto max-w-7xl px-10">
+            <Navbar />
+            {children}
+          </div>
         </ThemeProvider>
       </body>
     </html>
