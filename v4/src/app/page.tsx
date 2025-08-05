@@ -1,4 +1,6 @@
+import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
+import TechStacks from "@/components/TechStacks";
 import Image from "next/image";
 
 
@@ -9,6 +11,8 @@ export default function Home() {
       <main className="flex flex-col items-center sm:items-start w-full  gap-8 flex-grow">
         {/* TODO main elements*/}
         <Hero />
+        <Experience />
+        <TechStacks />
       </main>
       <footer className="w-full flex flex-wrap items-center justify-center gap-6 py-6">
         {/* TODO footer */}
