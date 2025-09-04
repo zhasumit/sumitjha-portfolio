@@ -1,22 +1,29 @@
-"use client";
-import { FaReact, FaNodeJs, FaPython } from "react-icons/fa";
-import { SiTypescript, SiTailwindcss } from "react-icons/si";
-import TechStackCard from "./TechStackCard";
+// components/TechStacks.tsx (Server Component)
+import projects from "@/data/projects.json";
+import ProjectCard from "./ProjectCard";
 
-const TechStacks = () => {
-    const techs = [
-        { name: "React", icon: FaReact },
-        { name: "Node.js", icon: FaNodeJs },
-        { name: "Python", icon: FaPython },
-        { name: "TypeScript", icon: SiTypescript },
-        { name: "Tailwind", icon: SiTailwindcss },
-    ];
-
+export default function TechStacks() {
     return (
-        <div className="p-10 flex justify-center items-center">
-            <TechStackCard title="My Tech Stack" techs={techs} />
+        <div className="p-4 md:p-8 -mt-5">
+            <h2 className="text-2xl md:text-3xl font-bold mb-5 text-center">
+                Tech stack
+            </h2>
+
+            <div className="flex flex-wrap justify-center gap-6">
+                {projects.map((project, i) => (
+                    <div key={i} className="w-full sm:w-[90%] md:w-[45%] lg:w-[30%]">
+                        <ProjectCard
+                            project={{
+                                ...project,
+                                technologies: project.technologies.map((tech: any) => ({
+                                    ...tech,
+                                    iconName: tech.icon,
+                                })),
+                            }}
+                        />
+                    </div>
+                ))}
+            </div>
         </div>
     );
-};
-
-export default TechStacks;
+}

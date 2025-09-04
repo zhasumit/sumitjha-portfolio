@@ -6,7 +6,7 @@ import SumitJha from "./icons/SumitJha";
 
 const Navbar = () => {
     return (
-        <nav className="bg-base-100 border-b border-base-300 px-6 py-3 flex items-center justify-between">
+        <nav className="bg-base-100 border-b border-base-200 px-6 py-5 flex items-center justify-between my-3">
             <Link href="/" className="flex items-center gap-2">
                 <SumitJha />
             </Link>
