@@ -1,0 +1,289 @@
+[
+    {
+        "id": "cpp",
+        "name": "C++",
+        "description": "High-performance systems programming language with object-oriented features. Expert in memory management, STL containers, algorithms, and building efficient applications for competitive programming and system-level development.",
+        "icon": "/techicons/CPP.svg",
+        "color": "#00599C"
+    },
+    {
+        "id": "c",
+        "name": "C",
+        "description": "Low-level programming language for system programming and embedded development. Proficient in pointer manipulation, memory management, data structures, and building performance-critical applications from scratch.",
+        "icon": "/techicons/C.svg",
+        "color": "#A8B9CC"
+    },
+    {
+        "id": "javascript",
+        "name": "JavaScript",
+        "description": "Dynamic programming language for web development. Skilled in ES6+ features, DOM manipulation, asynchronous programming, event handling, and creating interactive user interfaces for modern web applications.",
+        "icon": "/techicons/JavaScript.svg",
+        "color": "#F7DF1E"
+    },
+    {
+        "id": "typescript",
+        "name": "TypeScript",
+        "description": "Strongly-typed JavaScript superset for scalable applications. Experienced in type definitions, interfaces, generics, and building maintainable codebases with enhanced developer experience and error prevention.",
+        "icon": "/techicons/TypeScript.svg",
+        "color": "#3178C6"
+    },
+    {
+        "id": "python",
+        "name": "Python",
+        "description": "Versatile programming language for web development, data science, and automation. Proficient in Django, Flask, data analysis libraries, scripting, and building scalable backend systems and machine learning applications.",
+        "icon": "/techicons/Python-Light.svg",
+        "color": "#3776AB"
+    },
+    {
+        "id": "ruby",
+        "name": "Ruby",
+        "description": "Dynamic, object-oriented programming language focused on simplicity and productivity. Experienced in Ruby on Rails framework, metaprogramming, and building elegant web applications with clean, readable code.",
+        "icon": "/techicons/Ruby.svg",
+        "color": "#CC342D"
+    },
+    {
+        "id": "bash",
+        "name": "Bash",
+        "description": "Unix shell scripting for automation and system administration. Skilled in writing shell scripts, command-line tools, system monitoring, file processing, and streamlining development workflows and deployment processes.",
+        "icon": "/techicons/Bash-Light.svg",
+        "color": "#4EAA25"
+    },
+    {
+        "id": "html",
+        "name": "HTML",
+        "description": "Markup language for structuring web content. Expert in semantic HTML5, accessibility standards, form handling, SEO optimization, and creating well-structured, standards-compliant web pages and applications.",
+        "icon": "/techicons/HTML.svg",
+        "color": "#E34F26"
+    },
+    {
+        "id": "css",
+        "name": "CSS",
+        "description": "Styling language for web design and layout. Proficient in responsive design, Flexbox, Grid, animations, CSS3 features, and creating visually appealing, mobile-first user interfaces across all devices.",
+        "icon": "/techicons/css-new.png",
+        "color": "#1572B6"
+    },
+    {
+        "id": "sass",
+        "name": "Sass",
+        "description": "CSS preprocessor for enhanced styling capabilities. Experienced in variables, mixins, nesting, functions, and building maintainable, scalable stylesheets with organized architecture and reusable components for large projects.",
+        "icon": "/techicons/Sass.svg",
+        "color": "#CC6699"
+    },
+    {
+        "id": "react",
+        "name": "React",
+        "description": "JavaScript library for building user interfaces. Expert in hooks, component lifecycle, state management, JSX, and creating dynamic, interactive web applications with reusable components and modern development patterns.",
+        "icon": "/techicons/React-Light.svg",
+        "color": "#61DAFB"
+    },
+    {
+        "id": "nextjs",
+        "name": "Next.js",
+        "description": "React framework for production-ready applications. Skilled in server-side rendering, static site generation, API routes, file-based routing, and building fast, SEO-optimized full-stack web applications.",
+        "icon": "/techicons/NextJS-Light.svg",
+        "color": "#000000"
+    },
+    {
+        "id": "redux",
+        "name": "Redux",
+        "description": "Predictable state container for JavaScript applications. Experienced in managing complex application state, actions, reducers, middleware, and implementing scalable state management patterns in React applications.",
+        "icon": "/techicons/Redux.svg",
+        "color": "#764ABC"
+    },
+    {
+        "id": "zustand",
+        "name": "Zustand",
+        "description": "Lightweight state management library for React. Proficient in creating simple, scalable state stores with minimal boilerplate, handling complex state logic, and building efficient state management solutions.",
+        "icon": "/techicons/zustand.svg",
+        "color": "#FF6600"
+    },
+    {
+        "id": "react-query",
+        "name": "React Query",
+        "description": "Data fetching and caching library for React applications. Skilled in server state management, background updates, optimistic updates, and building efficient data synchronization with automatic caching strategies.",
+        "icon": "/techicons/react-query.svg",
+        "color": "#FF4154"
+    },
+    {
+        "id": "tailwind",
+        "name": "Tailwind CSS",
+        "description": "Utility-first CSS framework for rapid UI development. Expert in responsive design, component composition, custom configurations, and building modern, consistent user interfaces with atomic CSS classes and design systems.",
+        "icon": "/techicons/TailwindCSS-Light.svg",
+        "color": "#06B6D4"
+    },
+    {
+        "id": "bootstrap",
+        "name": "Bootstrap",
+        "description": "CSS framework for responsive web design. Experienced in grid systems, components, utilities, and creating mobile-first, cross-browser compatible interfaces with pre-built components and customizable themes.",
+        "icon": "/techicons/Bootstrap.svg",
+        "color": "#7952B3"
+    },
+    {
+        "id": "nodejs",
+        "name": "Node.js",
+        "description": "JavaScript runtime for server-side development. Proficient in building scalable backend services, REST APIs, real-time applications, microservices architecture, and handling asynchronous operations with event-driven programming.",
+        "icon": "/techicons/NodeJS-Light.svg",
+        "color": "#339933"
+    },
+    {
+        "id": "express",
+        "name": "Express.js",
+        "description": "Fast, minimalist web framework for Node.js. Skilled in building RESTful APIs, middleware implementation, routing, authentication, error handling, and creating robust backend services and web applications.",
+        "icon": "/techicons/ExpressJS-Light.svg",
+        "color": "#444444"
+    },
+    {
+        "id": "django",
+        "name": "Django",
+        "description": "High-level Python web framework for rapid development. Expert in MVT architecture, ORM, admin interface, authentication, and building secure, scalable web applications with built-in features and best practices.",
+        "icon": "/techicons/Django.svg",
+        "color": "#092E20"
+    },
+    {
+        "id": "fastapi",
+        "name": "FastAPI",
+        "description": "Modern, fast web framework for building APIs with Python. Proficient in automatic API documentation, type hints, async support, and creating high-performance RESTful services with modern Python features.",
+        "icon": "/techicons/FastAPI.svg",
+        "color": "#009688"
+    },
+    {
+        "id": "npm",
+        "name": "npm",
+        "description": "Package manager for JavaScript and Node.js ecosystem. Experienced in dependency management, package publishing, script automation, version control, and maintaining project dependencies with security best practices.",
+        "icon": "/techicons/Npm-Light.svg",
+        "color": "#CB3837"
+    },
+    {
+        "id": "yarn",
+        "name": "Yarn",
+        "description": "Fast, reliable package manager for JavaScript projects. Skilled in dependency resolution, workspace management, caching optimization, and ensuring consistent installations across development environments and production deployments.",
+        "icon": "/techicons/Yarn-Light.svg",
+        "color": "#2C8EBB"
+    },
+    {
+        "id": "bun",
+        "name": "Bun",
+        "description": "All-in-one JavaScript runtime and toolkit. Proficient in fast package management, bundling, testing, and running JavaScript applications with improved performance and developer experience compared to traditional tools.",
+        "icon": "/techicons/Bun-Light.svg",
+        "color": "#000000"
+    },
+    {
+        "id": "mongodb",
+        "name": "MongoDB",
+        "description": "NoSQL document database for flexible data storage. Expert in document modeling, aggregation pipelines, indexing strategies, and building scalable applications with JSON-like documents and horizontal scaling capabilities.",
+        "icon": "/techicons/MongoDB.svg",
+        "color": "#47A248"
+    },
+    {
+        "id": "mysql",
+        "name": "MySQL",
+        "description": "Relational database management system for data storage. Skilled in SQL queries, database design, performance optimization, indexing, and building robust data-driven applications with ACID compliance and reliability.",
+        "icon": "/techicons/MySQL-Light.svg",
+        "color": "#4479A1"
+    },
+    {
+        "id": "postgresql",
+        "name": "PostgreSQL",
+        "description": "Advanced open-source relational database system. Experienced in complex queries, JSONB support, full-text search, performance tuning, and building enterprise-grade applications with advanced SQL features and extensions.",
+        "icon": "/techicons/PostgreSQL-Light.svg",
+        "color": "#336791"
+    },
+    {
+        "id": "pandas",
+        "name": "Pandas",
+        "description": "Python library for data manipulation and analysis. Expert in data cleaning, transformation, statistical analysis, time series processing, and handling structured data with DataFrames for data science projects.",
+        "icon": "/techicons/Pandas.svg",
+        "color": "#150458"
+    },
+    {
+        "id": "numpy",
+        "name": "NumPy",
+        "description": "Fundamental package for scientific computing in Python. Proficient in array operations, mathematical functions, linear algebra, random number generation, and building efficient numerical computations for data analysis.",
+        "icon": "/techicons/NumPy.svg",
+        "color": "#013243"
+    },
+    {
+        "id": "scikit-learn",
+        "name": "Scikit-learn",
+        "description": "Machine learning library for Python with various algorithms. Skilled in classification, regression, clustering, model evaluation, feature engineering, and building predictive models for data science and analytics projects.",
+        "icon": "/techicons/SciKitLearn-Light.svg",
+        "color": "#F7931E"
+    },
+    {
+        "id": "tensorflow",
+        "name": "TensorFlow",
+        "description": "Open-source machine learning framework for deep learning. Experienced in neural networks, model training, deployment, and building AI applications with scalable machine learning solutions and production-ready models.",
+        "icon": "/techicons/TensorFlow-Light.svg",
+        "color": "#FF6F00"
+    },
+    {
+        "id": "pytorch",
+        "name": "PyTorch",
+        "description": "Dynamic machine learning framework for research and production. Proficient in deep learning, neural network architectures, GPU acceleration, and building flexible ML models with intuitive Python-first approach.",
+        "icon": "/techicons/PyTorch-Light.svg",
+        "color": "#EE4C2C"
+    },
+    {
+        "id": "jupyter",
+        "name": "Jupyter",
+        "description": "Interactive computing environment for data science and research. Expert in notebook development, data visualization, exploratory analysis, documentation, and creating reproducible research workflows with live code execution.",
+        "icon": "/techicons/Jupyter.svg",
+        "color": "#F37626"
+    },
+    {
+        "id": "docker",
+        "name": "Docker",
+        "description": "Containerization platform for application deployment. Skilled in container orchestration, Dockerfile creation, multi-stage builds, and deploying scalable, portable applications across different environments with consistent behavior.",
+        "icon": "/techicons/Docker.svg",
+        "color": "#2496ED"
+    },
+    {
+        "id": "git",
+        "name": "Git",
+        "description": "Distributed version control system for code management. Expert in branching strategies, merge conflicts, collaboration workflows, and maintaining clean project history with effective version control practices and team coordination.",
+        "icon": "/techicons/Git.svg",
+        "color": "#F05032"
+    },
+    {
+        "id": "postman",
+        "name": "Postman",
+        "description": "API development and testing platform for REST services. Proficient in API testing, collection management, environment variables, automated testing, and documenting APIs with comprehensive testing suites and workflows.",
+        "icon": "/techicons/Postman.svg",
+        "color": "#FF6C37"
+    },
+    {
+        "id": "neovim",
+        "name": "Neovim",
+        "description": "Modern, extensible text editor for efficient coding. Skilled in plugin configuration, custom key bindings, LSP integration, and creating optimized development environments with powerful editing capabilities and productivity enhancements.",
+        "icon": "/techicons/NeoVim-Light.svg",
+        "color": "#57A143"
+    },
+    {
+        "id": "figma",
+        "name": "Figma",
+        "description": "Collaborative interface design tool for UI/UX development. Experienced in prototyping, design systems, component libraries, user interface design, and creating pixel-perfect designs with developer handoff capabilities.",
+        "icon": "/techicons/Figma-Light.svg",
+        "color": "#F24E1E"
+    },
+    {
+        "id": "linux",
+        "name": "Linux",
+        "description": "Open-source operating system for servers and development. Expert in command-line operations, system administration, shell scripting, process management, and configuring development environments with various Linux distributions.",
+        "icon": "/techicons/Linux-Light.svg",
+        "color": "#FCC624"
+    },
+    {
+        "id": "centos",
+        "name": "CentOS",
+        "description": "Enterprise-class Linux distribution for server deployments. Skilled in system administration, package management, security configurations, and maintaining stable, reliable server environments with long-term support and enterprise features.",
+        "icon": "/techicons/centos.svg",
+        "color": "#262577"
+    },
+    {
+        "id": "fedora",
+        "name": "Fedora",
+        "description": "Cutting-edge Linux distribution with latest technologies. Experienced in system configuration, package management, development environments, and leveraging bleeding-edge features for modern software development and innovation.",
+        "icon": "/techicons/fedora.svg",
+        "color": "#294172"
+    }
+]

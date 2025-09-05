@@ -12,8 +12,8 @@ export default function Home() {
         {/* TODO main elements*/}
         <Hero />
         <Experience />
+        <TechStacks />
         <Projects />
-        {/* <TechStacks /> */}
       </main>
       <footer className="w-full flex flex-wrap items-center justify-center gap-6 py-6">
         {/* TODO footer */}
