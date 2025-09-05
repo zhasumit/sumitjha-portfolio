@@ -1,7 +1,6 @@
 import React from "react";
-import { Github, Calendar } from "lucide-react";
+import { Github, CalendarRange } from "lucide-react";
 import { RiLinkUnlinkM } from "react-icons/ri";
-import BadgeComponent from "./BadgeComponent";
 
 export type Project = {
     title: string;
@@ -10,10 +9,9 @@ export type Project = {
     technologies: {
         name: string;
         icon: string;
-        color: string;
     }[];
-    githubUrl: string;
-    liveUrl: string;
+    githubUrl?: string;
+    liveUrl?: string;
     date: string;
     status: "Completed" | "In Progress" | "Planning" | string;
 };
@@ -44,12 +42,11 @@ export default function ProjectCard({ project }: ProjectCardProps) {
     };
 
     return (
-        <div className="max-w-sm bg-base-100 border-base-300 text-base-content rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border hover:border-gray-200 group">
+        <div className="max-w-sm h-full flex flex-col bg-base-100 border-base-300 text-base-content rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border hover:border-gray-200 group">
             {/* Image Section */}
             <div className="relative overflow-hidden">
                 <img
                     src={project.image}
-                    alt={project.title}
                     className="w-full h-60 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute top-3 right-3">
@@ -64,20 +61,20 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             </div>
 
             {/* Content Section */}
-            <div className="p-4">
+            <div className="p-4 flex flex-col flex-1">
                 {/* Title and Date */}
                 <div className="flex items-start justify-between mb-3">
                     <h3 className="text-xl font-bold text-base-content leading-tight">
                         {project.title}
                     </h3>
-                    <div className="flex items-center text-secondary text-sm ml-2">
-                        <Calendar size={14} className="mr-1" />
-                        {formatDate(project.date)}
+                    <div className="flex items-center gap-1 text-secondary text-sm ml-2 whitespace-nowrap">
+                        <CalendarRange size={14} />
+                        <span className="mt-1">{formatDate(project.date)}</span>
                     </div>
                 </div>
 
                 {/* Description */}
-                <p className="text-base-content/70 text-sm leading-relaxed mb-4 line-clamp-3">
+                <p className="text-base-content/80 text-base leading-tight mb-4 line-clamp-3 min-h-[60px]">
                     {project.description}
                 </p>
 
@@ -85,34 +82,39 @@ export default function ProjectCard({ project }: ProjectCardProps) {
                 <div className="flex flex-wrap gap-1 mb-5">
                     {project.technologies.map((tech, index) => (
                         <span key={index}>
-                            <div className="badge rounded-xl bg-primary/10 text-primary-content inline-flex items-center py-3 select-none">
-                                <img className="flex items-center justify-center size-4 border-none" src={tech.icon}/>
-                                <span className="text-base-content -ml-1">{tech.name}</span>
+                            <div className="badge rounded-xl bg-primary/10 inline-flex items-center py-3 select-none">
+                                <img
+                                    className="flex items-center justify-center size-3.5 border-none"
+                                    src={tech.icon}
+                                />
+                                <span className="text-[13.5px] font-[500] text-base-content mt-0.5 -ml-1">{tech.name}</span>
                             </div>
                         </span>
                     ))}
                 </div>
 
                 {/* Action Buttons */}
-                <div className="flex gap-3 items-center rounded-lg">
-                    <a
-                        href={project.liveUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-1 inline-flex items-center justify-center px-4 py-2.5 text-sm font-medium text-primary-content bg-primary/80 hover:bg-primary hover:bg-primary-focus rounded-lg transition-colors duration-200 group"
-                    >
-                        <RiLinkUnlinkM
-                            size={16}
-                            className="mr-1 transition-transform duration-200"
-                        />
-                        Live Demo
-                    </a>
-
+                <div className="mt-auto flex gap-3 items-center rounded-lg">
+                    {project.liveUrl &&
+                        <a
+                            href={project.liveUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex-1 inline-flex items-center justify-center px-4 py-2.5 text-sm font-medium text-primary-content bg-primary/80 hover:bg-primary hover:bg-primary-focus rounded-lg transition-colors duration-200 group"
+                        >
+                            <RiLinkUnlinkM
+                                size={16}
+                                className="mr-1 transition-transform duration-200"
+                            />
+                            Live Demo
+                        </a>
+                    }
                     <a
                         href={project.githubUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center justify-center px-4 py-2.5 text-sm font-medium text-accent-content bg-accent/80 hover:bg-accent rounded-lg hover:bg-accent-focus transition-colors duration-200 group"
+                        className={`inline-flex items-center justify-center px-4 py-2.5 text-sm font-medium text-accent-content bg-accent/80 hover:bg-accent rounded-lg hover:bg-accent-focus transition-colors duration-200 group ${project.liveUrl ? "" : "w-full"
+                            }`}
                     >
                         <Github
                             size={18}
@@ -121,7 +123,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
                         Code
                     </a>
                 </div>
-            </div >
-        </div >
+            </div>
+        </div>
     );
 }

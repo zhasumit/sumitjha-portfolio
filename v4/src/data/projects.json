@@ -1,236 +1,224 @@
 [
     {
-        "title": "E-Commerce Dashboard",
-        "description": "A modern e-commerce dashboard built with Next.js 14, featuring real-time analytics, inventory management, and order processing.",
-        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=200&fit=crop&q=80",
+        "title": "Charcha",
+        "description": "Language learning chat & community app where users can interact with people, chat, call, record sessions, and join community spaces.",
+        "image": "/projectimages/kurakani.png",
         "technologies": [
             {
-                "name": "Next.js",
-                "icon": "/techicons/NextJS-Dark.svg"
+                "name": "MongoDB",
+                "icon": "/techicons/MongoDB.svg"
             },
             {
-                "name": "TypeScript",
-                "icon": "/techicons/TypeScript.svg"
+                "name": "NodeJS",
+                "icon": "/techicons/NodeJS-Dark.svg"
             },
             {
-                "name": "Tailwind CSS",
-                "icon": "/techicons/TailwindCSS-Light.svg"
+                "name": "ExpressJS",
+                "icon": "/techicons/ExpressJS-Dark.svg"
             },
             {
-                "name": "Prisma",
-                "icon": "/techicons/Prisma.svg"
+                "name": "React",
+                "icon": "/techicons/React-Dark.svg"
+            },
+            {
+                "name": "Zustand",
+                "icon": "/techicons/zustand.svg"
+            },
+            {
+                "name": "Daisy UI",
+                "icon": "/techicons/daisyui.svg"
+            }
+        ],
+        "githubUrl": "https://github.com/zhasumit/charcha",
+        "liveUrl": "https://charcha-lpvh.onrender.com",
+        "date": "2025-07-15",
+        "status": "Completed"
+    },
+    {
+        "title": "Freddit",
+        "description": "Reddit clone for community building, upvoting, contributing, commenting, and creating groups for discussion.",
+        "image": "/projectimages/Freddit.png",
+        "technologies": [
+            {
+                "name": "Ruby",
+                "icon": "/techicons/Ruby.svg"
+            },
+            {
+                "name": "Ruby on Rails",
+                "icon": "/techicons/Rails.svg"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "/techicons/JavaScript.svg"
             },
             {
                 "name": "PostgreSQL",
-                "icon": "/techicons/PostgreSQL-Light.svg"
+                "icon": "/techicons/PostgreSQL-Dark.svg"
             }
         ],
-        "githubUrl": "https://github.com/username/ecommerce-dashboard",
-        "liveUrl": "https://ecommerce-dashboard.vercel.app",
-        "date": "2024-08-15",
+        "githubUrl": "https://github.com/zhasumit/freddit",
+        "date": "2025-04-12",
         "status": "Completed"
     },
     {
-        "title": "AI Chat App",
-        "description": "A real-time chat application powered by OpenAI API with streaming responses and markdown rendering.",
-        "image": "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?w=400&h=200&fit=crop&q=80",
+        "title": "Vigilante",
+        "description": "Pipeline-based malware detector with ML pipeline, fast feature extraction, and real-time scanning API.",
+        "image": "/projectimages/vigilante.png",
+        "technologies": [
+            {
+                "name": "Python",
+                "icon": "/techicons/Python-Dark.svg"
+            },
+            {
+                "name": "Jupyter",
+                "icon": "/techicons/Jupyter.svg"
+            },
+            {
+                "name": "NumPy",
+                "icon": "/techicons/NumPy.svg"
+            },
+            {
+                "name": "Pandas",
+                "icon": "/techicons/Pandas.svg"
+            },
+            {
+                "name": "Scikit-learn",
+                "icon": "/techicons/scikit-learn.svg"
+            },
+            {
+                "name": "Flask",
+                "icon": "/techicons/Flask-Dark.svg"
+            }
+        ],
+        "githubUrl": "https://github.com/zhasumit/Malware-detector-ML",
+        "date": "2025-03-10",
+        "status": "Completed"
+    },
+    {
+        "title": "Tick",
+        "description": "Sticky notes app with sharable boards, drag & drop task management, and broadcast collaboration.",
+        "image": "/projectimages/tick.png",
         "technologies": [
             {
                 "name": "React",
-                "icon": "/techicons/React.svg"
+                "icon": "/techicons/React-Dark.svg"
             },
             {
-                "name": "Next.js",
-                "icon": "/techicons/NextJS-Dark.svg"
+                "name": "TailwindCSS",
+                "icon": "/techicons/TailwindCSS-Dark.svg"
             },
             {
-                "name": "TypeScript",
-                "icon": "/techicons/TypeScript.svg"
+                "name": "NodeJS",
+                "icon": "/techicons/NodeJS-Dark.svg"
             },
             {
-                "name": "Tailwind CSS",
-                "icon": "/techicons/TailwindCSS.svg"
+                "name": "Appwrite",
+                "icon": "/techicons/Appwrite.svg"
             }
         ],
-        "githubUrl": "https://github.com/username/ai-chat-app",
-        "liveUrl": "https://ai-chat-app.vercel.app",
-        "date": "2024-07-20",
-        "status": "Planning"
-    },
-    {
-        "title": "Portfolio Website",
-        "description": "Personal portfolio website showcasing projects, blog, and contact form with dark/light theme toggle.",
-        "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?w=400&h=200&fit=crop&q=80",
-        "technologies": [
-            {
-                "name": "Next.js",
-                "icon": "/techicons/NextJS-Dark.svg"
-            },
-            {
-                "name": "Tailwind CSS",
-                "icon": "/techicons/TailwindCSS.svg"
-            },
-            {
-                "name": "Framer Motion",
-                "icon": "/techicons/FramerMotion.svg"
-            }
-        ],
-        "githubUrl": "https://github.com/username/portfolio",
-        "liveUrl": "https://portfolio.vercel.app",
-        "date": "2024-06-10",
+        "githubUrl": "https://github.com/zhasumit/Tick",
+        "liveUrl": "https://tick-eight.vercel.app/",
+        "date": "2025-02-18",
         "status": "Completed"
     },
     {
-        "title": "Blog Platform",
-        "description": "Full-stack blog platform with authentication, markdown support, and SEO-friendly slugs.",
-        "image": "https://images.unsplash.com/photo-1487014679447-9f8336841d58?w=400&h=200&fit=crop&q=80",
-        "technologies": [
-            {
-                "name": "Next.js",
-                "icon": "/techicons/NextJS-Dark.svg"
-            },
-            {
-                "name": "PostgreSQL",
-                "icon": "/techicons/PostgreSQL.svg"
-            },
-            {
-                "name": "Prisma",
-                "icon": "/techicons/Prisma.svg"
-            }
-        ],
-        "githubUrl": "https://github.com/username/blog-platform",
-        "liveUrl": "https://blog-platform.vercel.app",
-        "date": "2024-05-05",
-        "status": "Completed"
-    },
-    {
-        "title": "YouTube Downloader",
-        "description": "Web-based YouTube downloader using yt-dlp integrated with a FastAPI backend.",
-        "image": "https://images.unsplash.com/photo-1611162617213-7fef27e84e8f?w=400&h=200&fit=crop&q=80",
-        "technologies": [
-            {
-                "name": "FastAPI",
-                "icon": "/techicons/FastAPI.svg"
-            },
-            {
-                "name": "React",
-                "icon": "/techicons/React.svg"
-            },
-            {
-                "name": "Tailwind CSS",
-                "icon": "/techicons/TailwindCSS.svg"
-            }
-        ],
-        "githubUrl": "https://github.com/username/youtube-downloader",
-        "liveUrl": "https://yt-dl.vercel.app",
-        "date": "2024-04-12",
-        "status": "Planning"
-    },
-    {
-        "title": "Task Manager",
-        "description": "Kanban-style task management app with drag-and-drop functionality and offline support.",
-        "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=200&fit=crop&q=80",
+        "title": "Dragnotes",
+        "description": "Privacy-first sticky notes app with smooth drag-and-drop UI and zero accounts.",
+        "image": "/projectimages/dragnotes.png",
         "technologies": [
             {
                 "name": "React",
-                "icon": "/techicons/React.svg"
+                "icon": "/techicons/React-Dark.svg"
             },
             {
-                "name": "Redux",
-                "icon": "/techicons/Redux.svg"
+                "name": "Sass",
+                "icon": "/techicons/Sass.svg"
             },
             {
-                "name": "Tailwind CSS",
-                "icon": "/techicons/TailwindCSS.svg"
+                "name": "JavaScript",
+                "icon": "/techicons/JavaScript.svg"
+            },
+            {
+                "name": "NodeJS",
+                "icon": "/techicons/NodeJS-Dark.svg"
             }
         ],
-        "githubUrl": "https://github.com/username/task-manager",
-        "liveUrl": "https://task-manager.vercel.app",
-        "date": "2024-03-01",
+        "githubUrl": "https://github.com/zhasumit/FrontEnd-projects/tree/main/DragDocs",
+        "liveUrl": "https://dragnote.vercel.app/",
+        "date": "2025-01-05",
         "status": "Completed"
     },
     {
-        "title": "Weather App",
-        "description": "Weather forecast app fetching real-time data from OpenWeather API with geolocation support.",
-        "image": "https://images.unsplash.com/photo-1501973801540-537f08ccae7b?w=400&h=200&fit=crop&q=80",
+        "title": "Tugnotes",
+        "description": "Simple Kanban board with lightweight drag & drop task management.",
+        "image": "/projectimages/tugnotes.png",
         "technologies": [
             {
-                "name": "Vue.js",
-                "icon": "/techicons/VueJS.svg"
+                "name": "HTML",
+                "icon": "/techicons/HTML.svg"
             },
             {
-                "name": "Tailwind CSS",
-                "icon": "/techicons/TailwindCSS.svg"
+                "name": "CSS",
+                "icon": "/techicons/CSS.svg"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "/techicons/JavaScript.svg"
             }
         ],
-        "githubUrl": "https://github.com/username/weather-app",
-        "liveUrl": "https://weather-app.vercel.app",
-        "date": "2024-02-14",
+        "githubUrl": "https://github.com/zhasumit/js-rookies/tree/main/18-TugNotes/v2",
+        "liveUrl": "https://tugnote.vercel.app/",
+        "date": "2024-11-28",
         "status": "Completed"
     },
     {
-        "title": "Stock Tracker",
-        "description": "Stock market tracker with real-time charts and financial news integration.",
-        "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=400&h=200&fit=crop&q=80",
+        "title": "Otakudoro",
+        "description": "Anime-themed Pomodoro app with custom themes and cross-platform support for Windows & Linux.",
+        "image": "/projectimages/otakudoro.png",
         "technologies": [
             {
-                "name": "React",
-                "icon": "/techicons/React.svg"
+                "name": "HTML",
+                "icon": "/techicons/HTML.svg"
             },
             {
-                "name": "Tailwind CSS",
-                "icon": "/techicons/TailwindCSS.svg"
+                "name": "CSS",
+                "icon": "/techicons/CSS.svg"
+            },
+            {
+                "name": "JS",
+                "icon": "/techicons/JavaScript.svg"
+            },
+            {
+                "name": "Electron",
+                "icon": "/techicons/Electron.svg"
             }
         ],
-        "githubUrl": "https://github.com/username/stock-tracker",
-        "liveUrl": "https://stock-tracker.vercel.app",
-        "date": "2024-01-10",
+        "githubUrl": "https://github.com/zhasumit/otakudoro",
+        "liveUrl": "https://otakudoro.vercel.app/",
+        "date": "2024-10-12",
         "status": "Completed"
     },
     {
-        "title": "Fitness Tracker",
-        "description": "A mobile-friendly fitness tracker app with workout logging and progress visualization.",
-        "image": "https://images.unsplash.com/photo-1599058917765-a780eda07a3b?w=400&h=200&fit=crop&q=80",
+        "title": "Ziggle",
+        "description": "Physics animation project showcasing smooth motion and dynamic visual effects.",
+        "image": "/projectimages/paper-ziggle.gif",
         "technologies": [
             {
-                "name": "React",
-                "icon": "/techicons/React.svg"
+                "name": "HTML",
+                "icon": "/techicons/HTML.svg"
             },
             {
-                "name": "Expo",
-                "icon": "/techicons/Expo.svg"
+                "name": "CSS",
+                "icon": "/techicons/CSS.svg"
             },
             {
-                "name": "SQLite",
-                "icon": "/techicons/SQLite.svg"
+                "name": "JavaScript",
+                "icon": "/techicons/JavaScript.svg"
             }
         ],
-        "githubUrl": "https://github.com/username/fitness-tracker",
-        "liveUrl": "https://fitness-tracker.vercel.app",
-        "date": "2023-12-22",
-        "status": "In Progress"
-    },
-    {
-        "title": "Online Store",
-        "description": "Full-featured online store with shopping cart, payment integration, and order tracking.",
-        "image": "https://images.unsplash.com/photo-1515169067865-5387ec356754?w=400&h=200&fit=crop&q=80",
-        "technologies": [
-            {
-                "name": "Next.js",
-                "icon": "/techicons/NextJS-Dark.svg"
-            },
-            {
-                "name": "Stripe",
-                "icon": "/techicons/Stripe.svg"
-            },
-            {
-                "name": "Tailwind CSS",
-                "icon": "/techicons/TailwindCSS.svg"
-            }
-        ],
-        "githubUrl": "https://github.com/username/online-store",
-        "liveUrl": "https://online-store.vercel.app",
-        "date": "2023-11-05",
-        "status": "Planning"
+        "githubUrl": "https://github.com/zhasumit/js-rookies/blob/main/22-ziggle/index.html",
+        "liveUrl": "https://ziggle-cubes.vercel.app/",
+        "date": "2024-08-20",
+        "status": "Completed"
     }
 ]

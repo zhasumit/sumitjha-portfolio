@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Navbar from "../components/Navbar";
 import ThemeProvider from "../components/ThemeProvider";
+import localFont from "next/font/local";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,6 +14,10 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+const productFont = localFont({
+  src: "../fonts/ProductSans-Regular.ttf",
+})
 
 export const metadata: Metadata = {
   title: "Sumit Jha",
@@ -29,7 +34,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" type="image/png" href="/icons/sumitjha.png" />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${productFont.className} ${geistSans.variable} ${geistMono.variable} antialiased text-lg`}>
         <ThemeProvider>
           <div className="mx-auto max-w-7xl px-3">
             <Navbar />

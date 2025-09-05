@@ -3,3 +3,106 @@
 @plugin "daisyui" {
     themes: all;
 }
+
+/* globals.css */
+@layer base {
+
+    b,
+    strong,
+    .font-bold,
+    .font-semibold {
+        @apply tracking-wide;
+    }
+}
+
+/* Neutrals */
+.slate-highlight {
+    background: linear-gradient(transparent 65%, #64748B44 65%);
+}
+
+.gray-highlight {
+    background: linear-gradient(transparent 65%, #6B728044 65%);
+}
+
+.zinc-highlight {
+    background: linear-gradient(transparent 65%, #71717A44 65%);
+}
+
+.neutral-highlight {
+    background: linear-gradient(transparent 65%, #73737344 65%);
+}
+
+.stone-highlight {
+    background: linear-gradient(transparent 65%, #78716C44 65%);
+}
+
+/* Reds */
+.red-highlight {
+    background: linear-gradient(transparent 65%, #EF444444 65%);
+}
+
+.orange-highlight {
+    background: linear-gradient(transparent 65%, #F9731644 65%);
+}
+
+.amber-highlight {
+    background: linear-gradient(transparent 65%, #F59E0B44 65%);
+}
+
+.yellow-highlight {
+    background: linear-gradient(transparent 65%, #EAB30844 65%);
+}
+
+.lime-highlight {
+    background: linear-gradient(transparent 65%, #84CC1644 65%);
+}
+
+/* Greens */
+.green-highlight {
+    background: linear-gradient(transparent 65%, #22C55E44 65%);
+}
+
+.emerald-highlight {
+    background: linear-gradient(transparent 65%, #10B98144 65%);
+}
+
+.teal-highlight {
+    background: linear-gradient(transparent 65%, #14B8A644 65%);
+}
+
+.cyan-highlight {
+    background: linear-gradient(transparent 65%, #06B6D444 65%);
+}
+
+/* Blues */
+.sky-highlight {
+    background: linear-gradient(transparent 65%, #0EA5E944 65%);
+}
+
+.blue-highlight {
+    background: linear-gradient(transparent 65%, #3B82F644 65%);
+}
+
+.indigo-highlight {
+    background: linear-gradient(transparent 65%, #6366F144 65%);
+}
+
+.violet-highlight {
+    background: linear-gradient(transparent 65%, #8B5CF644 65%);
+}
+
+.purple-highlight {
+    background: linear-gradient(transparent 65%, #A855F744 65%);
+}
+
+.fuchsia-highlight {
+    background: linear-gradient(transparent 65%, #D946EF44 65%);
+}
+
+.pink-highlight {
+    background: linear-gradient(transparent 65%, #EC489944 65%);
+}
+
+.rose-highlight {
+    background: linear-gradient(transparent 65%, #F43F5E44 65%);
+}
