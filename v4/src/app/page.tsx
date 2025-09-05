@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import TechStacks from "@/components/TechStacks";
 import Projects from "@/components/Projects";
 import Image from "next/image";
+import Education from "@/components/Education";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Experience />
         <TechStacks />
         <Projects />
+        <Education />
       </main>
       <footer className="w-full flex flex-wrap items-center justify-center gap-6 py-6">
         {/* TODO footer */}
