@@ -7,7 +7,7 @@ const Education = () => {
             id: "college",
             period: "Nov 2020 – Jun 2024",
             institute: "Motilal Nehru National Institute of Technology, Allahabad",
-            logo: "/icons/education/mnnit.png",
+            logo: "/education/mnnit.png",
             location: "Prayagraj, Uttar Pradesh, India",
             degree: "B.Tech [ Computer Science & Engineering ]",
             score: "7.85/10 CPI",
@@ -22,7 +22,7 @@ const Education = () => {
             id: "highschool",
             period: "Jun 2017 – Jul 2019",
             institute: "DAV Kedia Vishwabharti School",
-            logo: "/icons/education/DAV.png",
+            logo: "/education/DAV.png",
             location: "Biratnagar, Morang, Nepal",
             degree: "Senior Secondary (CBSE – PCM)",
             score: "81.8%",
@@ -36,7 +36,7 @@ const Education = () => {
             id: "secondary",
             period: "May 2015 – May 2017",
             institute: "DAV Kedia Vishwabharti School",
-            logo: "/icons/education/DAV.png",
+            logo: "/education/DAV.png",
             location: "Biratnagar, Morang, Nepal",
             degree: "Secondary Education (CBSE Class X)",
             score: "9.2/10 CGPA",
@@ -50,7 +50,7 @@ const Education = () => {
             id: "upper-primary",
             period: "May 2012 – Apr 2015",
             institute: "DAV Kedia Vishwabharti School",
-            logo: "/icons/education/DAV.png",
+            logo: "/education/DAV.png",
             location: "Biratnagar, Morang, Nepal",
             degree: "Classes VII, VIII, IX",
             highlights: [
@@ -63,7 +63,7 @@ const Education = () => {
             id: "primary",
             period: "May 2007 – Apr 2012",
             institute: "Holy Cross School",
-            logo: "/icons/education/holy-cross-school.png",
+            logo: "/education/holy-cross-school.png",
             location: "Ghatotand, Hazaribagh, Jharkhand, India",
             degree: "Classes II, III, IV, V, VI",
             highlights: [
@@ -75,7 +75,7 @@ const Education = () => {
             id: "kindergarten",
             period: "May 2005 – Apr 2007",
             institute: "Sharda Shishu Vikas School",
-            logo: "/icons/education/sharda-shishu-vikas-school.png",
+            logo: "/education/sharda-shishu-vikas-school.png",
             location: "Parej, Tapin, Ramgarh, Jharkhand, India",
             degree: "LKG, UKG, I",
         },
@@ -95,7 +95,7 @@ const Education = () => {
                         </time>
 
                         {edu?.location && (
-                            <div className="text-sm text-gray-500 flex">
+                            <div className="text-sm text-gray-500 flex my-1">
                                 <MapPin size={14} className="mr-0.5 text-red-300" /> {edu?.location}
                             </div>
                         )}
