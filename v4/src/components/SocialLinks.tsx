@@ -127,8 +127,8 @@ const SocialLinks = ({ className = "" }: SocialLinksProps) => {
         {
             id: "email",
             href: "mailto:sumitjha1618@gmail.com",
-            platform: "Email",
-            username: "sumitjha1618",
+            platform: "Gmail",
+            username: "sumitjha1618@gmail.com",
             icon: <PiMailboxDuotone color="#FF7F50" size={20} />,
             color: "#FF7F50",
             text: "Mail"
@@ -202,7 +202,7 @@ const SocialLinks = ({ className = "" }: SocialLinksProps) => {
     }, [hovered, mousePos]);
 
     return (
-        <div className={`flex flex-wrap justify-center lg:justify-start gap-1 xs:gap-1.5 sm:gap-2 md:gap-2.5 lg:gap-2 xl:gap-3 ${className}`}>
+        <div className={`flex flex-wrap justify-center lg:justify-start gap-1 md:gap-2 xl:gap-3 ${className}`}>
             {socials.map((social) => (
                 <a
                     key={social.id}

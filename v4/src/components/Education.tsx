@@ -81,7 +81,7 @@ const Education = () => {
                     <li key={edu.id} className="ml-4 relative">
                         <div className="absolute w-5 h-5 bg-primary rounded-full -left-8.5 -top-1 border-2 border-primary-content"></div>
 
-                        <time className="block mt-1 mb-1 text-sm font-semibold text-primary">
+                        <time className="block mt-1 mb-1 text-sm font-semibold text-primary/80">
                             {edu.period}
                         </time>
 
