@@ -5,7 +5,7 @@ import { PiGraphFill } from "react-icons/pi";
 
 const Experience = () => {
     return (
-        <div className="p-4 md:p-8">
+        <div className="w-full">
             <h2 className="text-3xl md:text-4xl font-bold mb-5 flex gap-1">Experience</h2>
 
             <ul className="relative border-l-2 border-gray-300 pl-3">

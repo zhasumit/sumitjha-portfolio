@@ -11,9 +11,8 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="px-6 sm:px-12 flex flex-col items-center">
-      <main className="flex flex-col items-center sm:items-start w-full gap-6 flex-grow space-y-14">
-        {/* TODO main elements*/}
+    <div className="flex flex-col items-center">
+      <main className="w-full max-w-7xl flex flex-col items-center sm:items-start gap-6 flex-grow space-y-14">
         <Hero />
         <Experience />
         <TechStacks />
@@ -21,7 +20,7 @@ export default function Home() {
         <About />
         <Education />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

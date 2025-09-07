@@ -4,11 +4,10 @@ import { TbLanguage, TbLanguageHiragana, TbLanguageOff } from 'react-icons/tb';
 
 const About = () => {
     return (<>
-        <div className="px-4 md:px-8">
-            {/* About section */}
+        <div className="w-full px-0 md:px-0">
             <h2 className="text-3xl md:text-4xl font-bold mb-3">About</h2>
-            <div className="flex justify-between">
-                <div className="flex-1 space-y-3 mr-16">
+            <div className="flex flex-col md:flex-row justify-between items-start">
+                <div className="flex-1 space-y-3 md:mr-8">
                     <p className='text-lg'>
                         I’m Sumit. Computer Science Enginner from NIT-Allahabad,
                         which basically means I survived four years of deadlines, chai-fueled coding nights.
@@ -33,8 +32,8 @@ const About = () => {
                     </p>
 
                 </div>
-                <div className="flex-shrink-0 flex items-center">
-                    <img src="./gifs/totoro.gif" className="w-56 rounded-full" alt="" />
+                <div className="flex-shrink-0 flex items-center justify-center mt-6 md:mt-0">
+                    <img src="./gifs/totoro.gif" className="w-40 md:w-56 rounded-full" alt="" />
                 </div>
             </div>
 

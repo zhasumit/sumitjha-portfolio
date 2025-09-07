@@ -36,7 +36,7 @@ export default function RootLayout({
       </head>
       <body className={`${productFont.className} ${geistSans.variable} ${geistMono.variable} antialiased text-lg`}>
         <ThemeProvider>
-          <div className="mx-auto max-w-7xl px-3">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <Navbar />
             {children}
           </div>

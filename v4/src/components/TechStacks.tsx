@@ -15,17 +15,14 @@ export default function ProjectCard() {
     }));
 
     return (
-        <div className="flex gap-2">
-            <div className="p-2 -mt-5">
-                <h2 className="text-3xl md:text-4xl font-bold my-4 ml-6.5 flex gap-1 items-end">
-                    Techstack
-                </h2>
-
-                <div className="flex flex-wrap justify-center gap-3 px-3">
-                    {transformedSkills.map((skill) => (
-                        <SkillCard key={skill.id} skill={skill} />
-                    ))}
-                </div>
+        <div className="w-full">
+            <h2 className="text-3xl md:text-4xl font-bold my-4 ml-0 flex gap-1 items-end">
+                Techstack
+            </h2>
+            <div className="flex flex-wrap justify-center gap-3 px-0">
+                {transformedSkills.map((skill) => (
+                    <SkillCard key={skill.id} skill={skill} />
+                ))}
             </div>
         </div>
     );

@@ -19,13 +19,13 @@ export default function Footer() {
             setTime(new Intl.DateTimeFormat("en-IN", options).format(now));
         };
 
-        updateTime(); // initial call
-        const interval = setInterval(updateTime, 1000); // update every sec
+        updateTime();
+        const interval = setInterval(updateTime, 1000);
         return () => clearInterval(interval);
     }, []);
 
     return (
-        <footer className="footer footer-center w-full border-t mt-20 p-6 text-base-content">
+        <footer className="w-full mt-16 py-6 border-t border-gray-200">
             <div className="flex items-center gap-2">
                 <img src="/icons/Map.svg" alt="Location Icon" className="h-6 w-6" />
                 <span className="text-base tracking-wider min-w-[80px] text-center">
