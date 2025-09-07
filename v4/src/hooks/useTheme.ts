@@ -7,7 +7,7 @@ export const useTheme = () => {
 
     useEffect(() => {
         const stored = localStorage.getItem(THEME_KEY);
-        const initial = stored || "light";
+        const initial = stored || "corporate";
         setTheme(initial);
         document.documentElement.setAttribute("data-theme", initial);
     }, []);

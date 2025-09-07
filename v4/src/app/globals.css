@@ -17,92 +17,92 @@
 
 /* Neutrals */
 .slate-highlight {
-    background: linear-gradient(transparent 55%, #64748B44 55%);
+    background: linear-gradient(transparent 60%, #64748B44 60%);
 }
 
 .gray-highlight {
-    background: linear-gradient(transparent 55%, #6B728044 55%);
+    background: linear-gradient(transparent 60%, #6B728044 60%);
 }
 
 .zinc-highlight {
-    background: linear-gradient(transparent 55%, #71717A44 55%);
+    background: linear-gradient(transparent 60%, #71717A44 60%);
 }
 
 .neutral-highlight {
-    background: linear-gradient(transparent 55%, #73737344 55%);
+    background: linear-gradient(transparent 60%, #73737344 60%);
 }
 
 .stone-highlight {
-    background: linear-gradient(transparent 55%, #78716C44 55%);
+    background: linear-gradient(transparent 60%, #78716C44 60%);
 }
 
 /* Reds */
 .red-highlight {
-    background: linear-gradient(transparent 55%, #EF444444 55%);
+    background: linear-gradient(transparent 60%, #EF444444 60%);
 }
 
 .orange-highlight {
-    background: linear-gradient(transparent 55%, #F9731644 55%);
+    background: linear-gradient(transparent 60%, #F9731644 60%);
 }
 
 .amber-highlight {
-    background: linear-gradient(transparent 55%, #F59E0B44 55%);
+    background: linear-gradient(transparent 60%, #F59E0B44 60%);
 }
 
 .yellow-highlight {
-    background: linear-gradient(transparent 55%, #EAB30844 55%);
+    background: linear-gradient(transparent 60%, #EAB30844 60%);
 }
 
 .lime-highlight {
-    background: linear-gradient(transparent 55%, #84CC1644 55%);
+    background: linear-gradient(transparent 60%, #84CC1644 60%);
 }
 
 /* Greens */
 .green-highlight {
-    background: linear-gradient(transparent 55%, #22C55E44 55%);
+    background: linear-gradient(transparent 60%, #60E44 60%);
 }
 
 .emerald-highlight {
-    background: linear-gradient(transparent 55%, #10B98144 55%);
+    background: linear-gradient(transparent 60%, #10B98144 60%);
 }
 
 .teal-highlight {
-    background: linear-gradient(transparent 55%, #14B8A644 55%);
+    background: linear-gradient(transparent 60%, #14B8A644 60%);
 }
 
 .cyan-highlight {
-    background: linear-gradient(transparent 55%, #06B6D444 55%);
+    background: linear-gradient(transparent 60%, #06B6D444 60%);
 }
 
 /* Blues */
 .sky-highlight {
-    background: linear-gradient(transparent 55%, #0EA5E944 55%);
+    background: linear-gradient(transparent 60%, #0EA5E944 60%);
 }
 
 .blue-highlight {
-    background: linear-gradient(transparent 55%, #3B82F644 55%);
+    background: linear-gradient(transparent 60%, #3B82F644 60%);
 }
 
 .indigo-highlight {
-    background: linear-gradient(transparent 55%, #6366F144 55%);
+    background: linear-gradient(transparent 60%, #6366F144 60%);
 }
 
 .violet-highlight {
-    background: linear-gradient(transparent 55%, #8B5CF644 55%);
+    background: linear-gradient(transparent 60%, #8B5CF644 60%);
 }
 
 .purple-highlight {
-    background: linear-gradient(transparent 55%, #A855F744 55%);
+    background: linear-gradient(transparent 60%, #60F744 60%);
 }
 
 .fuchsia-highlight {
-    background: linear-gradient(transparent 55%, #D946EF44 55%);
+    background: linear-gradient(transparent 60%, #D946EF44 60%);
 }
 
 .pink-highlight {
-    background: linear-gradient(transparent 55%, #EC489944 55%);
+    background: linear-gradient(transparent 60%, #EC489944 60%);
 }
 
 .rose-highlight {
-    background: linear-gradient(transparent 55%, #F43F5E44 55%);
+    background: linear-gradient(transparent 60%, #F43F5E44 60%);
 }

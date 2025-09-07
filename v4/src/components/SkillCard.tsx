@@ -35,9 +35,7 @@ export default function SkillCard({ skill }: SkillCardProps) {
         const portal = document.getElementById("tooltip-portal");
         if (portal) {
             if (isHovering) {
-                portal.style.left = `${mousePos.x + 10}px`;
-                portal.style.top = `${mousePos.y - 10}px`;
-                portal.style.display = "block";
+                // Create tooltip content first to measure its width
                 portal.innerHTML = `
                     <div class="max-w-[270px] bg-base-200 text-base-content text-xs px-5 py-3 rounded-lg shadow-lg shadow-base-300">
                         <div 
@@ -48,8 +46,32 @@ export default function SkillCard({ skill }: SkillCardProps) {
                         </div>
                         <div class="opacity-80 mt-1 text-base">${skill.description}</div>
                     </div>
-
                 `;
+
+                // Make it visible temporarily to measure
+                portal.style.display = "block";
+                portal.style.visibility = "hidden";
+
+                const tooltipRect = portal.getBoundingClientRect();
+                const viewportWidth = window.innerWidth;
+
+                // Calculate position
+                let leftPos = mousePos.x + 10;
+
+                // Check if tooltip would go off-screen on the right
+                if (leftPos + tooltipRect.width > viewportWidth - 10) {
+                    // Position on the left side of the cursor
+                    leftPos = mousePos.x - tooltipRect.width - 10;
+                }
+
+                // Ensure tooltip doesn't go off-screen on the left
+                if (leftPos < 10) {
+                    leftPos = 10;
+                }
+
+                portal.style.left = `${leftPos}px`;
+                portal.style.top = `${mousePos.y - 10}px`;
+                portal.style.visibility = "visible";
             } else {
                 portal.style.display = "none";
             }
@@ -61,15 +83,14 @@ export default function SkillCard({ skill }: SkillCardProps) {
             return (
                 <img
                     src={skill.icon}
-                    width={50}
-                    height={50}
-                    className="object-contain"
+                    className="object-contain w-9 h-9 md:w-11 md:h-11"
+                    alt={skill.name}
                 />
             );
         }
         return (
             <div
-                className="flex items-center justify-center"
+                className="flex items-center justify-center text-2xl md:text-4xl"
                 style={skill.color ? { color: skill.color } : undefined}
             >
                 {skill.icon}
