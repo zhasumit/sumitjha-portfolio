@@ -9,7 +9,7 @@ const headerFont = localFont({
 
 const Hero = () => {
     return (
-        <section className="w-full flex flex-col lg:flex-row items-center justify-center lg:justify-start mt-16 sm:mt-12 md:mt-16 lg:mt-20 xl:mt-24 gap-4 sm:gap-6 md:gap-8 lg:gap-10 xl:gap-12">
+        <section className="w-full flex flex-col lg:flex-row items-center justify-center lg:justify-start mt-14 sm:mt-12 md:mt-16 gap-4 sm:gap-6 md:gap-8 lg:gap-10 xl:gap-12">
             {/* Profile Image - Responsive sizing and positioning */}
             <div className="relative flex-shrink-0 w-52 h-52 md:w-52 md:h-52 lg:w-56 lg:h-56 xl:w-64 xl:h-64 rounded-full overflow-hidden shadow-lg sm:shadow-xl border-2 border-primary/20 flex justify-center items-center order-1 lg:order-none">
                 <Image

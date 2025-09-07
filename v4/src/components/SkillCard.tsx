@@ -37,7 +37,7 @@ export default function SkillCard({ skill }: SkillCardProps) {
             if (isHovering) {
                 // Create tooltip content first to measure its width
                 portal.innerHTML = `
-                    <div class="max-w-[270px] bg-base-200 text-base-content text-xs px-5 py-3 rounded-lg shadow-lg shadow-base-300">
+                    <div class="max-w-[270px] bg-base-200/40 text-base-content text-xs px-5 py-3 rounded-lg shadow-lg shadow-base-300 backdrop-blur-sm">
                         <div 
                             class="font-semibold inline-block text-lg"
                             style="background: linear-gradient(transparent 65%, ${skillColor}44 65%);"
@@ -51,19 +51,19 @@ export default function SkillCard({ skill }: SkillCardProps) {
                 // Make it visible temporarily to measure
                 portal.style.display = "block";
                 portal.style.visibility = "hidden";
-
+                
                 const tooltipRect = portal.getBoundingClientRect();
                 const viewportWidth = window.innerWidth;
-
+                
                 // Calculate position
                 let leftPos = mousePos.x + 10;
-
+                
                 // Check if tooltip would go off-screen on the right
                 if (leftPos + tooltipRect.width > viewportWidth - 10) {
                     // Position on the left side of the cursor
                     leftPos = mousePos.x - tooltipRect.width - 10;
                 }
-
+                
                 // Ensure tooltip doesn't go off-screen on the left
                 if (leftPos < 10) {
                     leftPos = 10;

@@ -2,13 +2,6 @@ import Title from '../components/title';
 import React, { useState } from 'react';
 import projects from '../data/projects.json';
 import petprojects from '../data/petprojects.json';
-import type { MetaFunction } from "@remix-run/node";
-
-export const meta: MetaFunction = () => {
-    return [
-        { title: "Sumit Jha - projects" },
-    ];
-};
 
 interface TechStack {
     name: string;

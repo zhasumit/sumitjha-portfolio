@@ -102,8 +102,8 @@ const SocialLinks = ({ className = "" }: SocialLinksProps) => {
             href: "https://github.com/zhasumit/",
             platform: "GitHub",
             username: "@zhasumit",
-            icon: <RiGithubLine color="gray" size={20} />,
-            color: "gray",
+            icon: <RiGithubLine color="#181717" size={20} />,
+            color: "#181717",
             text: "GitHub"
         },
         {
@@ -111,7 +111,7 @@ const SocialLinks = ({ className = "" }: SocialLinksProps) => {
             href: "https://www.linkedin.com/in/sumitjha1618/",
             platform: "LinkedIn",
             username: "sumitjha1618",
-            icon: <FaLinkedinIn color="#0077B5"  />,
+            icon: <FaLinkedinIn color="#0077B5" />,
             color: "#0077B5",
             text: "LinkedIn"
         },
@@ -120,8 +120,8 @@ const SocialLinks = ({ className = "" }: SocialLinksProps) => {
             href: "https://www.x.com/__sumitjha/",
             platform: "Twitter (X)",
             username: "@__sumitjha",
-            icon: <BsTwitterX color="#000" size={16} />,
-            color: "#000",
+            icon: <BsTwitterX color="#000000" size={16} />,
+            color: "#000000",
             text: "Twitter"
         },
         {
@@ -129,8 +129,8 @@ const SocialLinks = ({ className = "" }: SocialLinksProps) => {
             href: "mailto:sumitjha1618@gmail.com",
             platform: "Email",
             username: "sumitjha1618",
-            icon: <PiMailboxDuotone color="Coral" size={20} />,
-            color: "Coral",
+            icon: <PiMailboxDuotone color="#FF7F50" size={20} />,
+            color: "#FF7F50",
             text: "Mail"
         },
         {
@@ -138,8 +138,8 @@ const SocialLinks = ({ className = "" }: SocialLinksProps) => {
             href: "https://drive.google.com/file/d/1LrUGlH_wrdqLusxDumFc7OEZWJWEgbpq/view?usp=sharing",
             platform: "Resume",
             username: "Sumit Jha",
-            icon: <PiSuitcaseDuotone color="steelblue" size={20} />,
-            color: "steelblue",
+            icon: <PiSuitcaseDuotone color="#4682B4" size={20} />,
+            color: "#4682B4",
             text: "Resume"
         },
         {
@@ -156,8 +156,8 @@ const SocialLinks = ({ className = "" }: SocialLinksProps) => {
             href: "https://wa.me/7294043415",
             platform: "WhatsApp",
             username: "+91-72xxxxx415",
-            icon: <ImWhatsapp color="green" size={16} />,
-            color: "green",
+            icon: <ImWhatsapp color="#25D366" size={16} />,
+            color: "#25D366",
             text: "WhatsApp"
         }
     ];
@@ -183,7 +183,7 @@ const SocialLinks = ({ className = "" }: SocialLinksProps) => {
             const { left, top } = calculateTooltipPosition(mousePos.x, mousePos.y);
 
             portal.innerHTML = `
-                <div class="max-w-[270px] bg-base-200 border border-base-300 text-base-content text-xs px-5 py-3 rounded-lg shadow-xl backdrop-blur-sm">
+                <div class="max-w-[270px] bg-base-200/10 border border-base-300 text-base-content text-xs px-5 py-3 rounded-lg shadow-xl backdrop-blur-sm">
                     <div 
                         class="font-semibold inline-block text-lg"
                         style="background: linear-gradient(transparent 65%, ${alphaColor} 65%);"

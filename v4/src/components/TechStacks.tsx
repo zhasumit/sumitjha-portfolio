@@ -1,7 +1,6 @@
 import React from "react";
 import SkillCard, { Skill } from "./SkillCard";
 import skillsData from "../data/skills.json";
-import { PiToolboxDuotone } from "react-icons/pi";
 
 const iconOverrides: { [key: string]: React.ReactNode } = {}
 

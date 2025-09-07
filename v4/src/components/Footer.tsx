@@ -190,7 +190,7 @@ export default function Footer() {
             const { left, top } = calculateTooltipPosition(mousePos.x, mousePos.y);
 
             portal.innerHTML = `
-                <div class="max-w-[270px] bg-base-200 border border-base-300 text-base-content text-xs px-5 py-3 rounded-lg shadow-xl backdrop-blur-sm">
+                <div class="max-w-[270px] bg-base-100/10 border border-base-300 text-base-content text-xs px-5 py-3 rounded-lg shadow-xl backdrop-blur-sm">
                     <div 
                         class="font-semibold inline-block text-lg"
                         style="background: linear-gradient(transparent 65%, ${alphaColor} 65%);"
