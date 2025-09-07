@@ -1,13 +1,7 @@
 import Image from "next/image";
 import localFont from "next/font/local";
-import Badge from "./BadgeComponent";
-import { GrGithub } from "react-icons/gr";
-import { BsDiscord, BsTwitterX } from "react-icons/bs";
-import { MdAlternateEmail } from "react-icons/md";
-import { FaLinkedinIn } from "react-icons/fa";
-import { File, MapPinHouse } from "lucide-react";
-import { PiHouseLineDuotone, PiMailboxDuotone, PiSuitcaseDuotone, PiWhatsappLogoDuotone } from "react-icons/pi";
-import { ImWhatsapp } from "react-icons/im";
+import { PiHouseLineDuotone } from "react-icons/pi";
+import SocialLinks from "./SocialLinks";
 
 const headerFont = localFont({
     src: "../fonts/PPPangaia-Bold.otf",
@@ -56,51 +50,8 @@ const Hero = () => {
                     </span>
                 </div>
 
-                {/* Social Links - Fully responsive badges */}
-                <div className="flex flex-wrap justify-center lg:justify-start gap-1 xs:gap-1.5 sm:gap-2 md:gap-2.5 lg:gap-2 xl:gap-3 ">
-                    <a
-                        href="https://github.com/zhasumit/"
-                        target="_blank"
-                    >
-                        <Badge icon={<GrGithub color="gray" />} text="GitHub" />
-                    </a>
-                    <a
-                        href="https://www.linkedin.com/in/sumitjha1618/"
-                        target="_blank"
-                    >
-                        <Badge icon={<FaLinkedinIn color="#0077B5" />} text="LinkedIn" />
-                    </a>
-                    <a
-                        href="https://www.x.com/__sumitjha/"
-                        target="_blank"
-                    >
-                        <Badge icon={<BsTwitterX color="#000" />} text="Twitter" />
-                    </a>
-                    <a
-                        href="mailto:sumitjha1618@gmail.com"
-                        target="_blank"
-                    >
-                        <Badge icon={<PiMailboxDuotone color="Coral" />} text="Mail" />
-                    </a>
-                    <a
-                        href="https://drive.google.com/file/d/1LrUGlH_wrdqLusxDumFc7OEZWJWEgbpq/view?usp=sharing"
-                        target="_blank"
-                    >
-                        <Badge icon={<PiSuitcaseDuotone color="steelblue" />} text="Resume" />
-                    </a>
-                    <a
-                        href="https://discord.com/users/784362664037580841"
-                        target="_blank"
-                    >
-                        <Badge icon={<BsDiscord color="#5865F2" />} text="Discord" />
-                    </a>
-                    <a
-                        href="https://wa.me/7294043415"
-                        target="_blank"
-                    >
-                        <Badge icon={<ImWhatsapp color="green" />} text="WhatsApp" />
-                    </a>
-                </div>
+                {/* Social Links - Now using the separate component */}
+                <SocialLinks />
             </div>
         </section>
     );

@@ -40,18 +40,8 @@ function colorToRgba(color: string | undefined, alpha = 0.27) {
         return `rgba(${r}, ${g}, ${b}, ${alpha})`;
     }
 
-    // fallback for named colors
-    try {
-        const el = document.createElement("div");
-        el.style.color = color;
-        document.body.appendChild(el);
-        const computed = getComputedStyle(el).color; // "rgb(r, g, b)"
-        document.body.removeChild(el);
-        const m = computed.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/);
-        if (m) return `rgba(${m[1]}, ${m[2]}, ${m[3]}, ${alpha})`;
-    } catch (e) { }
-
-    return color;
+    // fallback
+    return `rgba(0,0,0,${alpha})`;
 }
 
 // --- Helper: Calculate tooltip position
@@ -105,7 +95,7 @@ const socials: SocialLink[] = [
         platform: "GitHub",
         username: "@zhasumit",
         icon: <LuGithub className="h-5 w-5 md:h-6 md:w-6" />,
-        color: "#333",
+        color: "#333333",
     },
     {
         id: "linkedin",
@@ -121,7 +111,7 @@ const socials: SocialLink[] = [
         platform: "Twitter (X)",
         username: "@__sumitjha",
         icon: <BsTwitterX className="h-4 w-4 md:h-5 md:w-5" />,
-        color: "#000",
+        color: "#000000",
     },
     {
         id: "email",
@@ -129,7 +119,7 @@ const socials: SocialLink[] = [
         platform: "Email",
         username: "sumitjha1618",
         icon: <PiMailboxDuotone className="h-5 w-5 md:h-6 md:w-6" />,
-        color: "coral",
+        color: "#FF7F50",
     },
     {
         id: "resume",
@@ -137,7 +127,7 @@ const socials: SocialLink[] = [
         platform: "Resume",
         username: "Sumit Jha",
         icon: <PiSuitcaseDuotone className="h-5 w-5 md:h-6 md:w-6" />,
-        color: "steelblue",
+        color: "#4682B4",
     },
     {
         id: "discord",
@@ -153,7 +143,7 @@ const socials: SocialLink[] = [
         platform: "WhatsApp",
         username: "+91-72xxxxx415",
         icon: <ImWhatsapp className="h-4 w-4 md:h-5 md:w-5" />,
-        color: "green",
+        color: "#25D366",
     },
 ];
 
@@ -238,7 +228,7 @@ export default function Footer() {
                     </div>
 
                     {/* Socials with improved hover effects */}
-                    <div className="flex flex-wrap justify-center gap-0.5">
+                    <div className="flex flex-wrap justify-center gap-0.5 md:gap-3">
                         {socials.map((s) => (
                             <a
                                 key={s.id}
